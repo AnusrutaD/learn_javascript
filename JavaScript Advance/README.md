@@ -1,0 +1,11 @@
+# Topics
+- **the difference**
+- **window object**
+- **browser context api**
+- **stack**
+- **heap memory**
+- **execution context**
+- **laxical environment**
+- **How to copy referance value?**
+- **truthy vs falsy**
+- **switch**
