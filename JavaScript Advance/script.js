@@ -174,5 +174,32 @@ do {
 
 //callback function
 setTimeout(() => {
-   console.log("Hello World!!") 
-}, timeout);
+   console.log("Hello") 
+}, 5000);
+
+/*
+the code which runns leter to thows we can put in a function
+*/
+
+function doSomething(callback) {
+    // Perform some task
+    
+    // Call the callback function
+    callback();
+  }
+  
+  function callbackFunction() {
+    console.log("Callback function executed!");
+  }
+  
+  // Pass the callback function as an argument
+  doSomething(callbackFunction);
+
+
+  // First class functions
+
+function abcd(a){
+    a();
+}
+
+abcd(function(){console.log("hello this is firstclass function");});
